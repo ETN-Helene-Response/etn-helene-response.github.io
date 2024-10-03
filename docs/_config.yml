@@ -10,12 +10,12 @@ relative_permalinks: true
 title:            East Tennessee Helene Response
 tagline:          'Data and Updates'
 description:      'made by tri city mutual aid'
-url:              /
+#url:              /
 baseurl:          https://etn-helene-response.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'tri city mutual aid'
+  url:            
 
 paginate:         5
 
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/etn-helene-response
