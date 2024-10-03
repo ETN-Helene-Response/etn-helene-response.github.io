@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>East Tennessee Helene Response</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2024-10-03T17:59:20-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Tri Cities Mutual Aid</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome</title>
+   <link href="http://localhost:4000/2024/10/03/welcome/"/>
+   <updated>2024-10-03T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2024/10/03/welcome</id>
+   <content type="html">&lt;p&gt;Hi! We are members or friends of Tri Cities Mutual Aid working together to organize information related to flood relief in east tennessee and some parts of western north carolina.&lt;/p&gt;
+
+&lt;p&gt;Our main priority is to help volunteers identify and meet needs, and get information to the people who need it.&lt;/p&gt;
+
+&lt;p&gt;Our project is crowdsourced, which means anyone anywhere can help! Open the About page to learn more.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

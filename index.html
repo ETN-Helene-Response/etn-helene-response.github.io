@@ -1,3 +1,52 @@
 ---
-layout: front
+layout: default
+title: Home
 ---
+
+<div class="page">
+  <h1>
+    Welcome
+  </h1>
+
+  <p>
+    Tri-Cities Mutual Aid is a grassroots network of individuals who care about people getting the resources they need. We are local to the Tri-Cities of Northeastern Tennessee, Southwestern Virginia and surrounding areas, with community connections across the Appalachian region.
+  </p>
+  <p>
+    This project is an attempt to collect and organize information related to community needs in the wake of Hurricane Helene. Click on "Resources" to view the data we have collected, or on "Get Involved" to learn how you can help support resource collection and organizing.
+  </p>
+  <p>Want to learn more about our work? <a href="https://www.facebook.com/tricitiesmutualaid/">Visit us on Facebook.</a></p>
+
+</div>
+
+<!-- <div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div> -->

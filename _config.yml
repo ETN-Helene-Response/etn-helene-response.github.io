@@ -1,12 +1,27 @@
-# Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-twitter_username:
-github_username:
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:            East Tennessee Helene Response
+tagline:          'Resources, updates, data collection, mapping'
+description:      'Maintained by  Tri Cities Mutual Aid'
+url:              https://etn-helene-response.github.io
+baseurl:          /
+
+author:
+  name:           'Tri Cities Mutual Aid'
+  url:            https://www.facebook.com/groups/tricitiesmutualaid
+
+ #paginate:         5
+
+# Custom vars
+# version:          2.1.0
+
+# github:
+#   repo:           https://github.com/poole/hyde
+#gems: [jekyll-paginate]
